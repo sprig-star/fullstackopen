@@ -1,0 +1,316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"first",
+				"first-of-type"
+			],
+			[
+				"border-right-",
+				"border-right-style"
+			],
+			[
+				"last",
+				"last-of-type"
+			],
+			[
+				"text-dec-r",
+				"text-decoration-line"
+			],
+			[
+				"esc_",
+				"esc_textarea"
+			],
+			[
+				"testim",
+				"testimonial-"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"white",
+				"Trim Trailing White Space"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Chevre/ily/Sites/fullstackopen"
+	],
+	"file_history":
+	[
+		"/Users/Chevre/ily/z/Records/Employment/resume.html",
+		"/Users/Chevre/ily/z/Records/Employment/automattic_design.html",
+		"/Users/Chevre/ily/z/Art/Design/Design Portfolio/portfolioro/[Meet me in the loom]/info.md",
+		"/Users/Chevre/ily/Weaving/meet-me-in-the-loom/index.html",
+		"/Users/Chevre/ily/Weaving/meet-me-in-the-loom/trellis.png",
+		"/Users/Chevre/Desktop/raif.html",
+		"/Users/Chevre/ily/Openform/plugin-tester/app/public/wp-config.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/plugins/raft-plugin/alpha.php",
+		"/Users/Chevre/ily/Openform/plugin-tester/app/public/wp-content/plugins/raft-plugin/alpha.php",
+		"/Users/Chevre/ily/Openform/plugin-tester/app/public/wp-content/plugins/raft-plugin/inc/shortcodes/triplist_test.php",
+		"/Users/Chevre/ily/Openform/arr-042422/app/public/wp-config.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-config.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/themes/raft-theme/page-home.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/themes/raft-theme/template-parts/_section_trip-availability.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/themes/raft-theme/page-triplist.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/plugins/raft-plugin/test.php",
+		"/Users/Chevre/ily/Openform/arr-042422/app/public/wp-content/themes/raft-theme/single.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/plugins/raft-plugin/inc/shortcodes/views/view_triplist.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/plugins/raft-plugin/server",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/plugins/raft-plugin/server.php",
+		"/Users/Chevre/Downloads/IMG_3069.JPG",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/plugins/raft-plugin/inc/shortcodes/test_data.php",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/plugins/raft-plugin/css/jsm_styles.css",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/themes/raft-theme/css/styles.less",
+		"/Users/Chevre/ily/Openform/arr/app/public/wp-content/themes/raft-theme/single-trips.php",
+		"/Users/Chevre/ily/Openform/arr-042422/app/public/wp-content/plugins/raft-plugin/inc/shortcodes/calendar.php",
+		"/Users/Chevre/ily/Openform/0419.txt",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/.gitignore",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/inc/template-functions.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/page-orderform.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/page-home.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/header.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/page-dashboard.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/inc/team-admin-functions.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/functions.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/template-parts/blocks/login-hero.php",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/Gruntfile.js",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/css/styles.css",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/css/3_Global/page.scss",
+		"/Users/Chevre/ily/Openform/moenkopistore-042122/app/public/wp-content/themes/moenkopi-theme/template-parts/blocks/admin-block-link.php",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/css/3_Global/page.scss",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/css/4_Components/search.scss",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/css/styles.css",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/.gitignore",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/style.css",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/functions.php",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/Gruntfile.js",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-content/themes/moenkopi-theme/page-dashboard.php",
+		"/Users/Chevre/ily/Openform/moenkopi/app/public/wp-includes/post-template.php",
+		"/Users/Chevre/ily/Sites/photo/_includes/images.html",
+		"/Users/Chevre/ily/Sites/photo/_includes/header.html",
+		"/Users/Chevre/ily/Sites/photo/_assets/city-v2.svg",
+		"/Users/Chevre/ily/Sites/photo/_content/06-16-2021/index.md",
+		"/Users/Chevre/ily/Weaving/meet-me-in-the-loom/textiles/trellis/index.html",
+		"/Users/Chevre/ily/Weaving/meet-me-in-the-loom/textiles/tallis/index.html",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/template-parts/event-single.php",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/styles.css",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/tidy.critical-styles.css",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/tidy.min.css",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/styles.scss",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/style.css",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/2_Settings/type.scss",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/4_Components/mailchimp.scss",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/4_Components/search.scss",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/footer.php",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/Gruntfile.js",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/.gitignore",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/css/4_Components/form.scss",
+		"/Users/Chevre/ily/Sites/vibzaz/app/public/wp-content/themes/Avada-child/old-footer.php",
+		"/Users/Chevre/ily/Sites/vibzaz/conf/php/php.ini.hbs",
+		"/Users/Chevre/ily/Weaving/meet-me-in-the-loom/textiles/shawl/index.html",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/template-parts/blocks/testimonial.php",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/css/4_Components/testimonial.css",
+		"/Users/Chevre/ily/Weaving/meet-me-in-the-loom/textiles/sieve/index.html",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/Gruntfile.js",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/inc/acf-blocks.php",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/inc/block-filters.php",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/package.json",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/css/4_Components/hero.scss",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/style.css",
+		"/Users/Chevre/ily/Sites/theme-builder/app/public/wp-includes/js/dist/blocks.js",
+		"/Users/Chevre/ily/Sites/theme-builder/app/public/wp-content/themes/my-first-theme/index.php",
+		"/Users/Chevre/ily/Sites/theme-builder/app/public/wp-config.php",
+		"/Users/Chevre/ily/Sites/theme-builder/app/public/wp-content/themes/my-first-theme/style.css",
+		"/Users/Chevre/ily/Sites/theme-builder/app/public/wp-content/themes/my-first-theme/functions.php",
+		"/Users/Chevre/ily/Sites/moenkopi/app/public/wp-content/themes/moenkopi-theme/inc/gravityforms/functions.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fullstackopen.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
