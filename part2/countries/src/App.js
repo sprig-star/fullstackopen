@@ -11,32 +11,50 @@ const Search = ({query, onChange}) =>
     />
   </form>
 
-const ResultEntry = ({result}) =>
-  <li>{result.name.common}</li>
+const ResultEntry = ({result, stateAction}) =>
+  <li>
+    {result.name.common} 
+    <button onClick={stateAction(result.name.common)}>show</button>
+  </li>
 
-const ResultsList = ({results}) =>
+const ResultsList = ({results, stateAction}) =>
   <ul>
-    {results.map(result => <ResultEntry key={result.name.official} result={result} />)}
+    {results.map(result => <ResultEntry key={result.name.official} result={result} stateAction={stateAction} />)}
   </ul>
+
+const DataTable = (props) =>
+  <table>
+    {Object.entries(props)
+      .map(([key, value]) =>
+        <tr key={key}>
+          <td>{key}</td>
+          <td>{value}</td>
+        </tr>
+      )
+    }
+  </table>
 
 const ResultInfo = ({result}) =>
   <div>
     <h2>{result.flag} {result.name.common}</h2>
     <h3>{result.name.official}</h3>
-    <p>capital: {result.capital[0]}</p>
-    <p>area: {result.area} km<sup>2</sup></p>
-    <h3>Languages:</h3>
-    <ul>
-      {Object.entries(result.languages)
-        .map(([key, language]) =>
-          <li key={key}>{language}</li>
-        )
-      }
-    </ul>
-    <img src={result.flags.png} />
+    <DataTable
+      capital={result.capital} 
+      area={result.area} 
+      languages={
+        <ul>
+          {Object.entries(result.languages)
+            .map(([key, language]) =>
+              <li key={key}>{language}</li>
+            )
+          }
+        </ul>
+      } 
+      flag={<img src={result.flags.png} />} 
+    />
   </div>
 
-const ResultsTree = ({results}) => {
+const ResultsTree = ({results, stateAction}) => {
   if (results.length > 10) {
     return 'Too many matches, please specify further'
   }
@@ -47,7 +65,7 @@ const ResultsTree = ({results}) => {
     return 'no countries found'
   }
   else {
-    return <ResultsList results={results} />
+    return <ResultsList results={results} stateAction={stateAction} />
   }
 }
 
@@ -72,9 +90,12 @@ const App = () => {
       <h1>Countries</h1>
       <Search
         query={searchQuery}
-        onChange={(event) => setSearchQuery(event.target.value)} 
+        onChange={event => setSearchQuery(event.target.value)} 
       />
-      <ResultsTree results={countriesToShow} />
+      <ResultsTree
+        results={countriesToShow} 
+        stateAction={data => () => setSearchQuery(data)}
+      />
     </>
   )
 }
