@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+import contactService from './services/contactService'
 
 const Search = ({query, onChange}) =>
   <form>
@@ -27,14 +27,14 @@ const PersonsForm = ({name, nameHandler, number, numberHandler, submitHandler}) 
     <button type="submit" onClick={submitHandler}>add</button>
   </form>
 
-const Person = ({person}) =>
-  <li>{person.name}, {person.number}</li>
+const Person = ({person, deleteClick}) =>
+  <li>{person.name}, {person.number} <button onClick={() => deleteClick(person)}>delete</button> </li>
 
-const PhoneList = ({persons}) =>
+const PhoneList = ({persons, deleteClick}) =>
   <>
     <h2>Numbers</h2>
     <ul>
-      {persons.map(person => <Person key={person.name} person={person} />)}
+      {persons.map(person => <Person key={person.name} person={person} deleteClick={deleteClick} />)}
     </ul>
   </>
 
@@ -46,9 +46,9 @@ const App = () => {
 
   useEffect(() => {
     console.log('effect')
-    axios
-      .get('http://localhost:3001/persons')
-      .then(response => setPersons(response.data))
+    contactService
+      .getAll()
+      .then(responseData => setPersons(responseData))
   }, [])
   console.log('rendered', persons.length, 'people')
 
@@ -67,10 +67,22 @@ const App = () => {
       window.alert(`${newName} is already in the phonebook`)
     }
     else {
-      setPersons(persons.concat({name: newName, number: newNumber}))
+      const newPerson = {name: newName, number: newNumber}
+      contactService
+        .create(newPerson)
+        .then(responseData => setPersons(persons.concat(responseData)))
     }
     setNewName('')
     setNewNumber('')
+  }
+
+  const deletePerson = person => {
+    if (window.confirm(`Delete ${person.name}?`)){
+      const indexOfId = persons.indexOf(person)
+      contactService
+        .remove(person.id)
+        .then(() => setPersons(persons.slice(0, indexOfId).concat(persons.slice(indexOfId+1))))
+    }
   }
 
   return (
@@ -87,7 +99,7 @@ const App = () => {
         numberHandler = {(event) => setNewNumber(event.target.value)}
         submitHandler = {addPerson}
       />
-      <PhoneList persons={personsToShow} />
+      <PhoneList persons={personsToShow} deleteClick={deletePerson} />
     </div>
   )
 }
