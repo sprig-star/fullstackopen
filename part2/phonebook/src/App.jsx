@@ -63,8 +63,16 @@ const App = () => {
     if (newName.length === 0 || newNumber.length === 0){
       window.alert(`Please complete the entry`)
     }
-    else if (persons.some(entry => entry.name === newName)){
-      window.alert(`${newName} is already in the phonebook`)
+    const nameIndex = persons.findIndex(entry => entry.name === newName)
+    if (nameIndex > -1){
+      const existingPerson = persons[nameIndex]
+      if (existingPerson.number === newNumber) {
+        window.alert(`${newName}'s number is already ${newNumber}`)
+      } else if (window.confirm(`Update ${newName}'s number to ${newNumber}?`)) {
+        contactService
+          .update(existingPerson.id, {...existingPerson, number: newNumber})
+          .then(changedPerson => setPersons(persons.map((person, id) => id === nameIndex ? changedPerson : person)))
+      }
     }
     else {
       const newPerson = {name: newName, number: newNumber}
