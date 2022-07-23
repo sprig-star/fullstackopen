@@ -50,7 +50,7 @@ const ResultInfo = ({result}) =>
           }
         </ul>
       } 
-      flag={<img src={result.flags.png} />} 
+      flag={<img src={result.flags.png} alt='' />} 
     />
   </div>
 
